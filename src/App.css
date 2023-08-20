@@ -1,0 +1,142 @@
+.Wrapper {
+  width: 100%;
+  text-align: center;
+}
+.App {
+  text-align: center;
+  width: 400px;
+  padding:10px;
+  margin:5px;
+  border:solid 1px dimgray;
+  border-radius:8px;
+}
+
+button {
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+
+input[type=text] {
+  border: solid 1px gray;
+  border-radius: 5px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-ctrl-btn {
+  width: 90px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table.App-entry-list {
+  width: 150px;
+  margin-right: 0px;
+  border: solid 3px lightgray;
+  /* float: right; */
+  border-radius: 10px;
+}
+table.App-entry-list td {
+  text-align: left;
+  font-family: "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 遊ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+}
+table.App-entry-list td:nth-child(1) {
+  width: 20px;
+}
+label {
+  margin-right: 10px;
+}
+table.App-board {
+  width: 390px;
+  height: 390px;
+  /* float: left; */
+  border-collapse: collapse;
+}
+table.App-board td {
+  border: solid 1px white;
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+table.App-board td:hover {
+  background-color: darkgreen;
+}
+div.App-left {
+  /* float: left; */
+  width: 400px;
+}
+div.App-right {
+  text-align: right;
+  /* float: right; */
+  width: 400px;
+}
+div.App-right label {
+  font-size: 8pt;
+}
+div.App-right input[type=text] {
+  width: 100px;
+}
+body {
+  padding: 10px;
+}
+div.App-table-wrapper {
+  border: solid 2px gray;
+}
+div.App-footer {
+  /* background-color: red;*/
+  /* float: left; */
+  width: 390px;
+  margin-top: 10px;
+  padding: 5px;
+  border: solid 1px dimgray;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px -5px #777777;
+}
+div.App-footer img, div.App-footer span {
+  vertical-align: middle;
+}
+div.splash {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  margin-left: 50%;
+  margin-right: 50%;
+  background: aliceblue;
+  border: solid 1px dimgray;
+  border-radius: 10px;
+}
+
