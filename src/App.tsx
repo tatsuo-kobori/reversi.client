@@ -257,10 +257,10 @@ function surrender() {
 function Piece(color: string) {
   return (<>
     {color === "W" && (
-      <img src={white} width="50px" alt="white"/>
+      <img src={white} width="43px" alt="white"/>
     )}
     {color === "B" && (
-      <img src={black} width="50px" alt="black"/>
+      <img src={black} width="43px" alt="black"/>
     )}
     </>
   );
