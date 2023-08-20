@@ -257,10 +257,10 @@ function surrender() {
 function Piece(color: string) {
   return (<>
     {color === "W" && (
-      <img src={white} width="43px" alt="white"/>
+      <img src={white} width="40px" alt="white"/>
     )}
     {color === "B" && (
-      <img src={black} width="43px" alt="black"/>
+      <img src={black} width="40px" alt="black"/>
     )}
     </>
   );
@@ -269,10 +269,10 @@ function Piece(color: string) {
 function GetTurn(color: string) {
   return (<>
     {color === "B" && (
-      <span><img src={black} width="30px" alt="black"/><span>のターンです</span></span>
+      <span><img src={black} width="28px" alt="black"/><span>のターンです</span></span>
     )}
     {color === "W" && (
-      <span><img src={white} width="30px" alt="white"/><span>のターンです</span></span>
+      <span><img src={white} width="28px" alt="white"/><span>のターンです</span></span>
     )}
     </>
   );
@@ -281,10 +281,10 @@ function GetTurn(color: string) {
 function GameMessage(color: string) {
   return (<>
     {color === "B" && (
-      <span><span>あなたは</span><img src={black} width="30px" alt="black"/><span>のプレイヤーです</span></span>
+      <span><span>あなたは</span><img src={black} width="28px" alt="black"/><span>のプレイヤーです</span></span>
     )}
     {color === "W" && (
-      <span><span>あなたは</span><img src={white} width="30px" alt="white"/><span>のプレイヤーです</span></span>
+      <span><span>あなたは</span><img src={white} width="28px" alt="white"/><span>のプレイヤーです</span></span>
     )}
     {color === "E" && (
       <span><span>あなたは</span><span>観戦者</span><span>です</span></span>
