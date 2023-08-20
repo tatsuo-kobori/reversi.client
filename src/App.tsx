@@ -214,8 +214,8 @@ function App(){
           <p>
             <label htmlFor="entryName">ハンドル・ネーム</label>
             <input disabled={isEntry()} type="text" id="entryName" maxLength={8} ref={entryName} />
-            <button disabled={isEntry()} onClick={handleEntry}>ENTRY</button>
-            <button disabled={!isEntry()} onClick={handleExit}>EXIT</button>
+            <button className="entry" disabled={isEntry()} onClick={handleEntry}>ENTRY</button>
+            <button className="entry" disabled={!isEntry()} onClick={handleExit}>EXIT</button>
           </p>
           <div>
           {entryUsers.users.length > 0 && (
@@ -236,7 +236,7 @@ function App(){
         <div className="App-footer">
           <div><span>{GameMessage(mode())}</span></div>
           <div><span>{GetTurn(turn)}</span></div>
-          <div><button className='App-ctrl-btn' onClick={pass}>パス</button>&nbsp;<button className='App-ctrl-btn' onClick={surrender}>まいった！</button></div>
+          <div className="game-control"><button className='App-ctrl-btn' onClick={pass}>パス</button>&nbsp;<button className='App-ctrl-btn' onClick={surrender}>まいった！</button></div>
         </div>
         <div className="splash" style={{ visibility: splash ? "visible" : "hidden" }}>
           <span>{message}</span>

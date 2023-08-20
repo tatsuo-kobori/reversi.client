@@ -4,9 +4,9 @@
 }
 .App {
   text-align: center;
-  width: 400px;
+  width: 425px;
   padding:10px;
-  margin:5px;
+  margin:5px auto;
   border:solid 1px dimgray;
   border-radius:8px;
 }
@@ -14,11 +14,20 @@
 button {
   border: solid 1px gray;
   border-radius: 5px;
+  height: 28px;
+  background-color: whitesmoke;
+}
+
+button.entry {
+  width: 70px;
+  margin-right: 3px;
 }
 
 input[type=text] {
   border: solid 1px gray;
   border-radius: 5px;
+  height: 24px;
+  margin-right: 3px;
 }
 
 .App-logo {
@@ -45,6 +54,10 @@ input[type=text] {
 
 .App-link {
   color: #61dafb;
+}
+
+div.game-control {
+  margin-top: 10px;
 }
 
 .App-ctrl-btn {
@@ -78,8 +91,8 @@ label {
   margin-right: 10px;
 }
 table.App-board {
-  width: 390px;
-  height: 390px;
+  width: 425px;
+  height: 425px;
   /* float: left; */
   border-collapse: collapse;
 }
@@ -102,7 +115,7 @@ div.App-left {
 div.App-right {
   text-align: right;
   /* float: right; */
-  width: 400px;
+  width: 425px;
 }
 div.App-right label {
   font-size: 8pt;
@@ -119,7 +132,7 @@ div.App-table-wrapper {
 div.App-footer {
   /* background-color: red;*/
   /* float: left; */
-  width: 390px;
+  width: 410px;
   margin-top: 10px;
   padding: 5px;
   border: solid 1px dimgray;
